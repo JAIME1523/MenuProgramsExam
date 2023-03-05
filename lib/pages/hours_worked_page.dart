@@ -54,7 +54,6 @@ class HoursWorkedPage extends StatelessWidget {
 
 class _AlertWork extends StatelessWidget {
   const _AlertWork({
-    super.key,
     required this.providerHours,
   });
   final HoursProvider providerHours;

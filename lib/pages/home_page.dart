@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 41, 41, 41),
+      backgroundColor: const Color.fromARGB(255, 41, 41, 41),
       body: SafeArea(
         child: Center(
           child: Column(
